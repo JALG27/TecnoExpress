@@ -62,7 +62,7 @@ const ProductDetails = () => {
             })}
           </h6>
           <h6>Categoria : {product?.category?.name}</h6>
-          <button class="btn btn-secondary ms-1">AÑADIR AL CARRITO</button>
+          <button class="btn btn-secondary ms-1">AÑADIR AL CARRITO</button> 
         </div>
       </div>
       <hr />
@@ -107,10 +107,10 @@ const ProductDetails = () => {
                       "cart",
                       JSON.stringify([...cart, p])
                     );
-                    toast.success("Item Added to cart");
+                    toast.success("Producto añadido al carrito");
                   }}
                 >
-                  ADD TO CART
+                  AÑADIR AL CARRITO
                 </button> */}
                 </div>
               </div>

@@ -57,7 +57,7 @@ const ForgotPasssword = () => {
               onChange={(e) => setAnswer(e.target.value)}
               className="form-control"
               id="exampleInputEmail1"
-              placeholder="Ingresa tu deporte favorito "
+              placeholder="Ingresa tu numero de C.I"
               required
             />
           </div>

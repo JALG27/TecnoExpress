@@ -137,7 +137,7 @@ const HomePage = () => {
                 <div key={p._id}>
                   <Radio value={p.array}>{p.name}</Radio>
                 </div>
-              ))}
+              ))} 
             </Radio.Group>
           </div>
           <div className="d-flex flex-column">
